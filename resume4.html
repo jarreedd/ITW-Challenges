@@ -6,24 +6,25 @@
     </head>
     <body>
         <header>
-            <h1>Jarreed Williams</h1>
-            <p>An introductory personal statement.</p>
+            <img src="images\IMG-20220806-WA0002-2.jpg" alt="profile picture of Jarreed Williams" width="200" height="210">
+            <h1 style="font-size: 40px;">Jarreed Williams</h1>
+            <h2>Software Development Student</h2>
+            <p class="swapMargin-Padding">Software developer in training.</p>
         </header>
 
+        <nav>
+            <h2 class="swapMargin-Padding" style="padding-bottom: 7px;">Menu</h2>
+            <ul style="margin: 0; padding: 16px 18px 16px 40px;">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+
         <section>
-            <aside>
-                <img src="images\IMG-20220806-WA0002-2.jpg" alt="profile picture of Jarreed Williams" width="200" height="210">
-
-                <ul>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                </ul>
-            </aside>
-
             <article>
                 <h2 id="education">Education</h2>
-                <h3>Intro to Web at <a href="http://codespace.co.za/">CodeSpace Academy</a></h3>
+                <h3>Intro to Web at <a href="http://codespace.co.za/" class="company">CodeSpace Academy</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                 <h3>Qualification 2</h3>
@@ -46,7 +47,7 @@
                     <li>A sentence about the responsibilities of the job</li>
                 </ul>
 
-                <h2 id="skills">Skills</h2>
+                <h2 id="skills">Skills</h2> <!-- nest skills inside an aside element next to work experiences -->
                 <ul>
                     <li>skill 1</li>
                     <li>skill 2</li>
@@ -56,7 +57,7 @@
             </article>
         </section>
 
-        <footer>
+        <footer style="text-align: center;">
             <h2>Contact Details</h2>
             <a href="https://www.linkedin.com/in/jarreed-williams-284a0721a">LinkedIn</a>
         </footer>

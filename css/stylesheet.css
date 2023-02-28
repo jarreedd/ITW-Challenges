@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.swapMargin-Padding {
+    margin: 0;
+    padding: 18px;
+}
+
+header {
+    text-align: center;
+    background-color: #CFE6CF;
+}
+
+img {
+    border: 5px solid #CD813C;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #e4f6fb80;
+    width: 25%;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #CFE6CF;
+}
+
+h2 {
+    color: #CD813C;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.company:link, a.company:visited {
+    color: #797979;
+}
+
+section {
+    margin-left: 12.5%;
+    margin-right: 18px;
+}
