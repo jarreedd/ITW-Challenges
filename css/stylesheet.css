@@ -24,8 +24,21 @@ nav {
     padding-left: 0;
 }
 
+#nav-menu {
+    padding-bottom: 7px;
+}
+
+ul {
+    margin: 0; padding: 16px 18px 16px 40px;
+}
+
 footer {
     background-color: #CFE6CF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;">
 }
 
 h2 {
