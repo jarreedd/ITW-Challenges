@@ -1,40 +1,19 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.swapMargin-Padding {
-    margin: 0;
-    padding: 18px;
-}
-
-header {
+.header {
     text-align: center;
     background-color: #CFE6CF;
+    padding: 20px;
 }
 
-img {
+#headshot {
     border: 5px solid #CA6D18;
     border-radius: 50%;
-}
-
-nav {
-    background-color: #e4f6fb80;
-    width: 25%;
-    padding-left: 0;
-}
-
-#nav-menu {
-    padding-bottom: 7px;
-}
-
-ul {
-    margin: 0; padding: 16px 18px 16px 40px;
-}
-
-footer {
-    background-color: #CFE6CF;
-    text-align: center;
 }
 
 h1 {
@@ -43,6 +22,28 @@ h1 {
 
 h2 {
     color: #CA6D18;
+}
+
+.position{
+    font-size: 130%;
+}
+
+.header p {
+    margin-top: 20px;
+}
+
+.nav-bar {
+    background-color: #e4f6fb80;
+    width: 25%;
+    padding-left: 0;
+}
+
+.nav-bar h2{
+    padding: 16px 18px 0px 20px;
+}
+
+.internal-links {
+    padding: 8px 18px 16px 40px;
 }
 
 a:link {
@@ -61,4 +62,14 @@ a.company:link, a.company:visited {
 section {
     margin-left: 12.5%;
     margin-right: 18px;
+    padding: 20px;
+}
+
+.education, .experience, .skills{
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #CFE6CF;
+    text-align: center;
 }
