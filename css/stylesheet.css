@@ -2,18 +2,30 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
-    text-align: center;
     background-color: #CFE6CF;
-    padding: 20px;
+    height: 300px;
 }
 
-#headshot {
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#profile-picture {
     border: 5px solid #CA6D18;
     border-radius: 50%;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
 }
 
 h1 {
@@ -39,7 +51,9 @@ h3 {
 .nav-bar {
     background-color: #e4f6fb80;
     width: 25%;
-    padding-left: 0;
+    position: fixed;
+    left: 20px;
+    height: 100%;
 }
 
 .nav-bar h2{
@@ -63,18 +77,19 @@ a.company:link, a.company:visited {
     color: #797979;
 }
 
+main{
+    margin-left: 30%;
+}
+
 .education{
-    margin-left: 12.5%;
     margin-right: 18px;
-    padding: 20px;
-    padding-bottom: 20px;
+    padding:20px 20px 0;
 }
 
 .workExperience-skillsTools {
-    margin-left: 12.5%;
     margin-right: 18px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding:20px 20px 0;
 }
 
 .experience{
