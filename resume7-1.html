@@ -84,7 +84,25 @@
     </main>
 
     <footer class="footer">
-        <section class="contact">
+        <section class="contact-me">
+            <h2>Contact me</h2>
+            <form action="https://formsubmit.co/jarreedw@gmail.com" method="POST">
+                <label>Name: <input name="name" type="text" required></label>
+                <label>Email: <input name="email" type="email" required></label>
+                <label>
+                    <select id="subject" name="_subject" required>
+                        <option value="Interview Opportunity">Interview Opportunity</option>
+                        <option value="Recruitment">Recruitment</option>
+                        <option value="Internship">Internship</option>
+                        <option value="other">other</option>
+                    </select>
+                </label><br>
+                <textarea name="message" placeholder="message here please (optional)" cols="90" rows="2"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <section class="contactDetails">
             <h2>Contact Details</h2>
             <a href="https://www.linkedin.com/in/jarreed-williams-284a0721a">LinkedIn</a>
         </section>
@@ -92,3 +110,4 @@
 </body>
 
 </html>
+

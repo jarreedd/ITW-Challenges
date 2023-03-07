@@ -28,8 +28,8 @@
 .navbar {
     background-color: #e4f6fbaa;
     width: 230px;
-    height: 1280px;
-    position:absolute;
+    height: 1450px;
+    position: relative;
     left: 20px;
 }
 
@@ -124,8 +124,21 @@ main{
 .footer {
     margin-bottom: 20px;
     padding: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
     background-color: #cfe6cf;
     text-align: center;
-    position: static;
-    bottom: 20px;
+    display: flex;
+}
+
+.contact-me * {
+    margin-bottom : 18px;
+}
+
+.contact-me {
+    margin-left: 270px;
+}
+
+.contactDetails{
+    padding-left: 100px;
 }
