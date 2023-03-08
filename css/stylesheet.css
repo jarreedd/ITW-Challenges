@@ -123,22 +123,8 @@ main{
 
 .footer {
     margin-bottom: 20px;
-    padding: 20px;
-    padding-bottom: 20px;
     padding-bottom: 20px;
     background-color: #cfe6cf;
     text-align: center;
     display: flex;
-}
-
-.contact-me * {
-    margin-bottom : 18px;
-}
-
-.contact-me {
-    margin-left: 270px;
-}
-
-.contactDetails{
-    padding-left: 100px;
 }
