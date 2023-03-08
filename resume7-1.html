@@ -84,21 +84,33 @@
     </main>
 
     <footer class="footer">
-        <section class="contact-me">
-            <h3>Say hello<span>_</span></h3>
+        <section class="form-box">
             <form action="https://formsubmit.co/jarreedw@gmail.com" method="POST">
-                <label>Name: <input name="name" type="text" required></label>
-                <label>Email: <input name="email" type="email" required></label>
-                <label>
+                <h3>Say hello<span>_</span></h3>
+
+                <div class="inputbox">
+                    <label for="name">Name: </label>
+                    <input id="name" name="name" type="text" placeholder="First and last name *" required>
+                </div>
+
+                <div class="inputbox">
+                    <label for="email">Email: </label>
+                    <input name="email" type="email" placeholder="Email *" required>
+                </div>
+
+                <div class="inputbox">
+                    <label for="subject">Purpose: </label>
                     <select id="subject" name="_subject" required>
                         <option value="Interview Opportunity">Interview Opportunity</option>
                         <option value="Recruitment">Recruitment</option>
                         <option value="Internship">Internship</option>
                         <option value="other">other</option>
                     </select>
-                </label>
-                <textarea name="message" placeholder="message here please (optional)" cols="30" rows="4"></textarea>
-                <input type="submit" value="Send">
+                </div>
+
+                <textarea name="message" placeholder="message here please (optional)" rows="4"></textarea>
+
+                <input id="submitBtn" type="submit" value="Send">
             </form>
         </section>
 
