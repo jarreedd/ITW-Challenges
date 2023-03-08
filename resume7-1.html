@@ -9,8 +9,11 @@
 <body>
     <header class="header">
         <picture class="headshot">
-            <img id="profile-picture" src="images\IMG-20220806-WA0002-2.jpg" width="200px">
+            <source srcset="images/face.jpg" media="(max-width: 500px)">
+            <source srcset="images/head-and-shoulders.jpg" media="(max-width: 900px)">
+            <img id="profile-picture" src="images/head-and-shoulders-original.jpg" width="200px" alt="profile-picture">
         </picture>
+
         <nav class="navbar">
             <div class="emptyspace"></div>
             <nav class="menu">
