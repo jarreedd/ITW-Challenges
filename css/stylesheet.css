@@ -190,3 +190,30 @@ textarea{
     font-size: 1em;
     font-weight: 600;
 }
+
+/* The css styling above represents the sizing and scaling for Laptop screen */
+
+/* Small devices (Mobile, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body { background-color: red; }
+}
+
+/* Medium devices (Tablet portrait mode, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body { background-color: blue; }
+}
+
+/* Medium devices (Tablet landscape mode, 769px and up) */
+@media only screen and (min-width: 769px) {
+    body { background-color: green; }
+}
+
+/* Large devices (Laptops/Desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    body { background-color: yellow; }
+}
+
+/* Extra large devices (Desktops, Widescreen and larger, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    body { background-color: orange; }
+}
