@@ -8,10 +8,10 @@
 
 <body>
     <header class="header">
-        <picture class="head-shot">
-            <source srcset="images/face.jpg" media="(max-width: 500px)">
+        <picture class="profile-picture">
+            <source srcset="images/face.jpg" media="(max-width: 599px)" width="50px">
             <source srcset="images/head-and-shoulders.jpg" media="(max-width: 900px)">
-            <img id="profile-picture" src="images/head-and-shoulders-original.jpg" width="200px" alt="profile-picture">
+            <img id="image" src="images/head-and-shoulders-original.jpg" width="200px">
         </picture>
 
         <div class="container">
@@ -20,22 +20,20 @@
             <p>Software developer in training.</p>
         </div>
 
-        <nav class="navbar">
-            <div class="empty-space"></div>
-            <nav class="menu">
-                <h2>Menu</h2>
-                <div class="internal-links">
-                    <ul>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </nav>
-
     </header>
-
+    <nav class="navbar">
+        <div class="empty-space"></div>
+        <nav class="menu">
+            <h2>Menu</h2>
+            <div class="internal-links">
+                <ul>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
     <main>
         <article class="education">
             <h2 id="education">Education and Learning</h2>
@@ -86,35 +84,40 @@
     </main>
 
     <footer class="footer">
-        <section class="form-box">
-            <form action="https://formsubmit.co/jarreedw@gmail.com" method="POST">
-                <h3>Say hello<span>_</span></h3>
 
-                <div class="inputbox">
-                    <label for="name">Name: </label>
-                    <input id="name" name="name" type="text" placeholder="First and last name *" required>
-                </div>
-
-                <div class="inputbox">
-                    <label for="email">Email: </label>
-                    <input name="email" type="email" placeholder="Email *" required>
-                </div>
-
-                <div class="inputbox">
-                    <label for="subject">Purpose: </label>
-                    <select id="subject" name="_subject" required>
-                        <option value="Interview Opportunity">Interview Opportunity</option>
-                        <option value="Recruitment">Recruitment</option>
-                        <option value="Internship">Internship</option>
-                        <option value="other">other</option>
-                    </select>
-                </div>
-
-                <textarea name="message" placeholder="message here please (optional)" rows="4"></textarea>
-
-                <input id="submitBtn" type="submit" value="Send">
-            </form>
-        </section>
+        <div class="footer-container">
+            <section class="form-box">
+                <form action="https://formsubmit.co/jarreedw@gmail.com" method="POST">
+                    <h3>Say hello<span>_</span></h3>
+    
+                    <div class="inputbox">
+                        <label for="name">Name: </label>
+                        <input id="name" name="name" type="text" placeholder="First and last name *" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="email">Email: </label>
+                        <input name="email" type="email" placeholder="Email *" required>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="subject">Purpose: </label>
+                        <select id="subject" name="_subject" required>
+                            <option value="Interview Opportunity">Interview Opportunity</option>
+                            <option value="Recruitment">Recruitment</option>
+                            <option value="Internship">Internship</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+    
+                    <textarea name="message" placeholder="message here please (optional)" rows="4"></textarea>
+    
+                    <input id="submitBtn" type="submit" value="Send">
+                </form>
+            </section>
+    
+            <div class="placeholder"></div>
+        </div>
 
         <section class="contactDetails">
             <h3>Contact Details</h3>

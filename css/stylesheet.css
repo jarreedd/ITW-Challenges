@@ -5,52 +5,81 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Small devices (Mobile, 600px and down) */
+
 .header {
     background-color: #cfe6cf;
-    height: 300px;
+    height: 100px;
     background: url('/images/banner-2.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    
 }
 
-#profile-picture {
-    border: 5px solid #CA6D18;
-    border-radius: 50%;
-    position: absolute;
-}
-
-.head-shot{
+.profile-picture{
     position: relative;
-    left: 30px;
-    top: 40px;
-    z-index: 1;
-}
-
-.navbar {
-    background-color: #e4f6fbaa;
-    width: 230px;
-    height: 1567px;
-    position: relative;
+    top: -28px;
     left: 20px;
 }
 
-.empty-space{
-    height: 300px;
-    position: relative;
+#image {
+    border: 3px solid #CA6D18;
+    border-radius: 50%;
+    position: absolute;
+    
 }
 
-.menu{
+.container{
+    position: relative;
+    left: 100px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #797979;
+}
+
+h2 {
+    font-size: 16px;
+    color: #CA6D18;
+}
+
+.position{
+    font-size: 11px;
+}
+
+p {
+    font-size: 11px;
+    color: #797979;
+}
+
+.navbar {
     position: sticky;
     top: 0px;
+    background-color: #e4f6fbaa;
+    width: 100%;
+    height: 60px;
 }
 
 .menu h2{
-    padding: 20px 0 0 0;
+    padding: 5px 0 0 0;
     text-align: center;
 }
 
-.internal-links {
-    padding: 12px 18px 20px 36px;
+.internal-links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    padding-right: 5px;
+}
+
+a{
+    font-size: 12px;
 }
 
 a:link {
@@ -70,55 +99,22 @@ a.company:link, a.company:visited {
     color: #797979;
 }
 
-.container{
-    margin-left: 30px;
-    position: absolute;
-    top: 80px;;
-    left: 250px;
-
-}
-
-h1 {
-    margin-top: 18px;
-    font-size: 40px;
-    color: #797979;
-}
-
-h2 {
-    color: #CA6D18;
-}
-
-.position{
-    font-size: 130%;
-}
-
-.header p {
-    margin-top: 20px;
-    color: #797979;
-}
-
 h3 {
-    margin-top: 18px;
-}
-
-main{
-    margin-left: 250px;
+    margin-top: 8px;
+    font-size: 12px;
 }
 
 .education{
-    margin-right: 18px;
-    padding:20px 20px 0;
+    padding: 10px 10px 0;
 }
 
 .workExperience-skillsTools {
-    margin-right: 18px;
     margin-bottom: 20px;
-    padding:20px 20px 0;
+    padding: 10px 10px 0;
     display: flex;
 }
 
 .experience{
-    margin-bottom: 20px;
     flex: 2;
 }
 
@@ -128,14 +124,15 @@ main{
 }
 
 .experience ul, .skills ul{
-    padding-left: 22px;
+    padding-left: 18px;
+    font-size: 11px;
 }
 
 .footer {
-    margin-bottom: 20px;
     background-color: #cfe6cf;
     text-align: center;
     display: flex;
+    flex-direction: column;
 }
 
 .form-box{
@@ -191,21 +188,28 @@ textarea{
     font-weight: 600;
 }
 
-/* The css styling above represents the sizing and scaling for Laptop screen */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Small devices (Mobile, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body { background-color: red; }
+.placeholder{
+    background-color: hsla(0, 0%, 100%, 0.3);
+    border: 2px dashed black;
+    border-radius: 10%;
+    height: 351px;
+    width: 182px;
+    margin-right: 30px;
+}
+
+.contactDetails{
+    margin-bottom: 10px;
 }
 
 /* Medium devices (Tablet portrait mode, 600px and up) */
 @media only screen and (min-width: 600px) {
     body { background-color: blue; }
-}
-
-/* Medium devices (Tablet landscape mode, 769px and up) */
-@media only screen and (min-width: 769px) {
-    body { background-color: green; }
 }
 
 /* Large devices (Laptops/Desktops, 1024px and up) */
