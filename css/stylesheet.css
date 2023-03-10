@@ -7,7 +7,7 @@
 
 .header {
     background-color: #cfe6cf;
-    height: 400px;
+    height: 300px;
     background: url('/images/banner-2.jpg') no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,24 +20,22 @@
 }
 
 .head-shot{
-    height: 200px;
-    width: 200px;
     position: relative;
     left: 30px;
-    top: 70px;
+    top: 40px;
     z-index: 1;
 }
 
 .navbar {
     background-color: #e4f6fbaa;
     width: 230px;
-    height: 1702px;
+    height: 1567px;
     position: relative;
     left: 20px;
 }
 
 .empty-space{
-    height: 400px;
+    height: 300px;
     position: relative;
 }
 
@@ -116,10 +114,17 @@ main{
     margin-right: 18px;
     margin-bottom: 20px;
     padding:20px 20px 0;
+    display: flex;
 }
 
 .experience{
     margin-bottom: 20px;
+    flex: 2;
+}
+
+.skills{
+    margin-left: 18px;
+    flex: 1;
 }
 
 .experience ul, .skills ul{
