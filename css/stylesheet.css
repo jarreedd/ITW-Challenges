@@ -29,7 +29,7 @@
     border: 3px solid #CA6D18;
     border-radius: 50%;
     position: absolute;
-
+    width: 80px;
 }
 
 .container {
@@ -114,6 +114,10 @@ p {
     padding: 10px 10px 0;
 }
 
+#experience{
+    position: absolute;
+}
+
 .workExperience-skillsTools {
     margin-bottom: 20px;
     padding: 10px 10px 0;
@@ -121,6 +125,7 @@ p {
 }
 
 .experience {
+    margin-top: 22px;
     flex: 2;
 }
 
@@ -231,6 +236,7 @@ textarea {
 
     #image {
         border: 4px solid #CA6D18;
+        width: 160px;
     }
 
     .container {
@@ -348,6 +354,7 @@ textarea {
 
     #image {
         border: 5px solid #CA6D18;
+        width: 200px;
     }
 
     .container {
@@ -428,6 +435,7 @@ textarea {
     }
 
     .experience {
+        margin-top: 40px;
         margin-bottom: 20px;
     }
     .workExperience-skillsTools {

@@ -3,15 +3,18 @@
 
 <head>
     <title>Jarreed Williams Official</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="css/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <picture class="profile-picture">
-            <source srcset="images/face.jpg" media="(max-width: 599px)" width="80px">
-            <source srcset="images/head-and-shoulders.jpg" media="(max-width: 1023px)" width="160px">
-            <img id="image" src="images/head-and-shoulders-original.jpg" width="200px">
+            <source srcset="images/face.jpg" media="(max-width: 599px)">
+            <source srcset="images/head-and-shoulders.jpg" media="(max-width: 1023px)">
+            <img id="image" src="images/head-and-shoulders-original.jpg" alt="profile-picture">
         </picture>
 
         <div class="container">
@@ -54,8 +57,8 @@
         </article>
 
         <section class="workExperience-skillsTools">
+            <h2 id="experience">Experience</h2>
             <article class="experience">
-                <h2 id="experience">Experience</h2>
                 <h3>Job 1</h3>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae eligendi nisi asperiores temporibus itaque nihil, quo maxime similique tenetur.</li>
@@ -101,12 +104,13 @@
     
                     <div class="inputbox">
                         <label for="email">Email: </label>
-                        <input name="email" type="email" placeholder="Email *" required>
+                        <input id="email" name="email" type="email" placeholder="Email *" required>
                     </div>
     
                     <div class="inputbox">
                         <label for="subject">Purpose: </label>
                         <select id="subject" name="_subject" required>
+                            <option value="">--purpose of contacting--</option>
                             <option value="Interview Opportunity">Interview Opportunity</option>
                             <option value="Recruitment">Recruitment</option>
                             <option value="Internship">Internship</option>
